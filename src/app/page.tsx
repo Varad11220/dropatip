@@ -55,7 +55,7 @@ export default function Home() {
         {/* Success Message */}
         {showSuccess && (
           <div className="bg-green-600 text-white text-center text-sm p-3 rounded-xl mb-6 animate-fade-in">
-            🎉 Thank you for your tip! You're awesome!
+            🎉 Thank you for your tip! You&apos;re awesome!
           </div>
         )}
 
