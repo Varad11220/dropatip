@@ -78,8 +78,8 @@ export default function Home() {
                 type="number"
                 name="amount"
                 id="amount"
-                min="1"
-                max="10000"
+                min={1}
+                max={10000}
                 value={formData.amount}
                 onChange={handleInputChange}
                 className="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 pr-16 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
@@ -116,8 +116,8 @@ export default function Home() {
             <textarea
               name="message"
               id="message"
-              rows="3"
-              maxLength="200"
+              rows={3}
+              maxLength={200}
               value={formData.message}
               onChange={handleInputChange}
               placeholder="Say something nice to ATxShockwave..."
