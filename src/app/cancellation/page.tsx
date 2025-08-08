@@ -5,13 +5,7 @@ import { Heart, Smartphone, Zap } from 'lucide-react';
 
 export default function CancellationPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-96 h-96 lg:w-[600px] lg:h-[600px] bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-96 h-96 lg:w-[600px] lg:h-[600px] bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{animationDelay: '2s'}}></div>
-        <div className="hidden lg:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse" style={{animationDelay: '4s'}}></div>
-      </div>
+    <>
       <div className="relative z-10 min-h-screen flex items-center justify-center p-4 lg:p-8">
         <div className="w-full max-w-4xl">
           {/* Content card */}
@@ -34,7 +28,7 @@ Payment failures: If money is deducted but the digital product is not delivered 
 Fraud/Inappropriate Use: Accounts may be suspended, and payments to creators held, if we detect fraudulent or abusive transactions.
 
 For refund or payment issues, please email us promptly at ddcss002@gmail.com with transaction details.
-`}
+`} 
             </div>
             <div className="text-center mt-8 pt-6 border-t border-slate-700/50">
               <p className="text-xs text-slate-500 flex items-center justify-center gap-1 mb-2">
@@ -52,6 +46,6 @@ For refund or payment issues, please email us promptly at ddcss002@gmail.com wit
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
