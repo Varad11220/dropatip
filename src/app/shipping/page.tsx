@@ -18,8 +18,16 @@ export default function ShippingPage() {
               <p className="text-slate-400 text-sm">Last updated on Aug 5 2025</p>
             </div>
             <div className="prose prose-invert max-w-none text-slate-300 text-base lg:text-lg" style={{whiteSpace: 'pre-line'}}>
-{`
-Shipping is not applicable for business.
+            {`
+Shipping & Delivery Policy
+
+Last updated on Aug 8th, 2025
+
+As Drop a Tip is a digital tipping platform for ATxShockwave, no physical products are sold or shipped.
+
+All tips and digital recognition items are delivered instantly during or shortly after checkout (e.g., real-time on-stream alerts). There is no shipping process, and no delivery charges apply.
+
+If you experience any delay in the delivery of your digital item or stream alert, please contact us at support@dropatip.in for assistance.
 `}
             </div>
             <div className="text-center mt-8 pt-6 border-t border-slate-700/50">
