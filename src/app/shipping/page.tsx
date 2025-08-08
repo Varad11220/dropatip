@@ -23,11 +23,11 @@ Shipping & Delivery Policy
 
 Last updated on Aug 8th, 2025
 
-As Drop a Tip is a digital tipping platform for ATxShockwave, no physical products are sold or shipped.
+Drop a Tip only provides digital products/services in the form of tips and on-stream recognition for ATxShockwave. No physical items are shipped.
 
-All tips and digital recognition items are delivered instantly during or shortly after checkout (e.g., real-time on-stream alerts). There is no shipping process, and no delivery charges apply.
+Delivery of digital products is completed instantly during or shortly after successful payment, usually via a real-time on-stream alert. In rare cases, delivery may take up to 24 hours.
 
-If you experience any delay in the delivery of your digital item or stream alert, please contact us at support@dropatip.in for assistance.
+Since our services are digital, no shipping charges apply.
 `}
             </div>
             <div className="text-center mt-8 pt-6 border-t border-slate-700/50">
