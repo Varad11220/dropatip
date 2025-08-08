@@ -100,7 +100,7 @@ export default function Home() {
                     <Star className="w-5 h-5" />
                   </div>
                   <div className="text-2xl font-bold text-white mb-1">{todaysTips}</div>
-                  <div className="text-sm text-slate-400">Today's Tips</div>
+                  <div className="text-sm text-slate-400">Today&apos;s Tips</div>
                 </div>
                 <div className="bg-slate-800/30 backdrop-blur-xl rounded-2xl p-6 text-center border border-slate-700/30">
                   <div className="flex items-center justify-center gap-2 text-purple-400 mb-2">
